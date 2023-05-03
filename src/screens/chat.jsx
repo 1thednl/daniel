@@ -10,7 +10,7 @@ const Chat = () => {
              <div class="container">
         <div class="row">
       <div class="col-1 mt-2"><a href="/direct" className="text-dark"><i class="fa-solid fa-arrow-left fa-2x"></i></a></div>
-      <div class="col-1"><img style={{borderRadius: '50%'}} src="https://i.pinimg.com/736x/41/b3/e2/41b3e2324610c2b439a240f3ca2b4b9f.jpg" width="50"></img></div>
+      <div class="col-1"><img style={{borderRadius: '50%'}} src="https://i.pinimg.com/736x/41/b3/e2/41b3e2324610c2b439a240f3ca2b4b9f.jpg" width={50}></img></div>
       <div class="col-1">
         <div class="row">
             <div class="col-12"><b>ya_sper</b></div>
@@ -29,7 +29,7 @@ const Chat = () => {
      <div class="col-1 mt-5"><img style={{borderRadius: '50%'}} src="https://i.pinimg.com/736x/41/b3/e2/41b3e2324610c2b439a240f3ca2b4b9f.jpg" width="50"></img></div>
      <div style={{backgroundColor:'#000', borderRadius:'10px'}} class="col-1 text-light mt-5">Чимчонг</div><div class="co-10"></div>
      <div className="col-12 mt-5"></div>
-     <a vocab="da" dangerouslySetInnerHTML={adf} onAnimationEnd adf
+     
      <div class="col-12 mt-5"><input class="form-control" placeholder="Отправить сообщение...."></input></div>
 
       </div>
